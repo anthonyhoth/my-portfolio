@@ -21,6 +21,12 @@ export default function Navbar() {
             Testimonials
           </a>
         </nav>
+        <button
+          href="./resume.pdf"
+          className="bg-gray-400 text-gray-800 focus:outline-none hover:bg-gray-500 rounded px-3 py-1 mr-3"
+        >
+          My Resume
+        </button>
         <a
           href="#contact"
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
