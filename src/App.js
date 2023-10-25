@@ -9,9 +9,9 @@ import Testimonials from "./components/Testimonials";
 export default function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
-      <Navbar style={{ zIndex: 1000 }} />
+      <Navbar />
       <About />
-      <Projects style={{ zIndex: 1 }} />
+      <Projects />
       <Skills />
       <Testimonials />
       <Contact />
