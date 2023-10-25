@@ -15,6 +15,14 @@ export const projects = [
     image: "./bloombot.gif",
     link: "https://www.figma.com/proto/hWzDikWodpd4J8Hn9BnhMt/BloomBot?type=design&node-id=3-11&t=n3M08RuPHS6qPOIv-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=65%3A1232&mode=design",
   },
+  {
+    title: "OmniHealth",
+    subtitle: "Java, FXML",
+    description:
+      "OmniHealth is a desktop app for private clinic practitioners to quickly store, edit and search for patients and their records. It is optimised for use via a Command Line Interface (CLI) while still having the benefits of a Graphical User Interface (GUI).",
+    image: "./omnihealth.gif",
+    link: "https://ay2223s1-cs2103t-t14-3.github.io/tp/",
+  },
 ];
 
 export const testimonials = [
