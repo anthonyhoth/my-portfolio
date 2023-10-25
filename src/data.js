@@ -1,60 +1,50 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Gymble",
+    subtitle: "Figma",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "GroundZero startathon prototype featuring an AI-powered workout management app that generates personalised workout plans.",
+    image: "./gymble.gif",
+    link: "https://www.figma.com/proto/MR2KpFZLrLBwXyy3Sah6yx/14_G2_Group_Prototype?type=design&node-id=251-540&t=LLW4HMwpoiSPFc0C-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=249%3A381&show-proto-sidebar=1&mode=design",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    title: "BloomBot",
+    subtitle: "Figma",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "CS3240 Interation Design school project featuring a smart garden mangement app that provides custom plant care tips & notifications.",
+    image: "./bloombot.gif",
+    link: "https://www.figma.com/proto/hWzDikWodpd4J8Hn9BnhMt/BloomBot?type=design&node-id=3-11&t=n3M08RuPHS6qPOIv-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=65%3A1232&mode=design",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+      "Anthony proved to be an outstanding cybersecurity intern at Quadrant360. Their technical expertise, attention to detail, and ability to effectively communicate complex findings set them apart. Anthony significantly contributed to critical projects and boosted web traffic through their engaging cybersecurity articles. They are a skilled and dedicated professional with a promising future in cybersecurity.",
+    image: "./testimonial-photo-1.png",
+    name: "Kenneth Ho",
+    company: "Quadrant360",
   },
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+      "Anthony is a fast learner, responsible and proactive worker. He is well liked and his strong inter- personal skills were well demonstrated as he worked across functional teams within the company (Engineering, Sales, Project Management, Account Management, etc). Anthony will be a valuable assent to any organization he joins.",
+    image: "./testimonial-photo-2.jpeg",
+    name: "Lim Soo Meng",
+    company: "eVantage Group",
   },
 ];
 
 export const skills = [
+  "Java",
+  "Python",
   "JavaScript",
   "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
+  "C",
+  "Figma",
+  "Nessus",
+  "Metasploit",
 ];
+
+export const tools = skills.slice(5);
+
+export const languages = skills.slice(0, 5);
